@@ -1,5 +1,6 @@
 import Head from "next/head";
 import PropTypes from "prop-types";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -19,7 +20,7 @@ function MyApp({ Component, pageProps }) {
 }
 
 MyApp.propTypes = {
-  Component: PropTypes.element.isRequired,
+  Component: PropTypes.elementType.isRequired,
   pageProps: PropTypes.shape({}),
 };
 

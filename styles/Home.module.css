@@ -15,7 +15,7 @@
   width: 30%;
 }
 
-.bottom_cloud {
+.bottomCloud {
   bottom: 300px;
   left: 250px;
   position: absolute;
@@ -25,25 +25,25 @@
   font-weight: normal;
 }
 
-.skill-row {
+.skillRow {
   line-height: 2;
   margin: 100px auto;
   text-align: left;
   width: 50%;
 }
 
-.engineer-img {
+.engineerImg {
   float: right;
   width: 25%;
 }
 
-.computer-img {
+.mernImg {
   float: left;
   margin-right: 20px;
   width: 25%;
 }
 
-.mern-img {
+.computerImg {
   float: right;
   width: 25%;
 }
@@ -54,7 +54,7 @@
   padding: 50px 0 20px;
 }
 
-.middle-container {
+.middleContainer {
   margin: 100px 0;
 }
 
