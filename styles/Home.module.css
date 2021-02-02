@@ -48,7 +48,7 @@
   width: 25%;
 }
 
-.bottom-container {
+.bottomContainer {
   background-color: #66bfbf;
   margin-top: 50px;
   padding: 50px 0 20px;
@@ -97,8 +97,17 @@
   text-decoration: none;
 }
 
-.p-footer {
+.pFooter {
   color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  width: 0.875em;
+  vertical-align: -0.125em;
+  overflow: visible;
 }

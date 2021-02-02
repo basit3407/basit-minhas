@@ -50,6 +50,12 @@ export default function Middle() {
       </div>
       <hr />
       <div>
+        <h2>My Work</h2>
+
+        <a href="http://www.prevaileng.com">Prevail Engineering</a>
+      </div>
+      <hr />
+      <div>
         <h2>Get In Touch</h2>
         <h3>So how may i help you?</h3>
         <p>click on contact me and send me your message.</p>
@@ -57,7 +63,11 @@ export default function Middle() {
           CONTACT ME
         </a>
       </div>
-      <FontAwesomeIcon color="green" icon={faWhatsapp} />
+      <FontAwesomeIcon
+        className={styles.icon}
+        color="green"
+        icon={faWhatsapp}
+      />
       <span>+923002631368</span>
     </div>
   );
