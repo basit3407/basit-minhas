@@ -1,61 +1,16 @@
-.topContainer {
-  background-color: #eaf6f6;
-  padding-top: 100px;
-  position: relative;
-}
-
-.topCloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
 .intro {
   margin: auto;
-  width: 30%;
-}
-
-.bottomCloud {
-  bottom: 300px;
-  left: 250px;
-  position: absolute;
+  width: 25%;
 }
 
 .subtitle {
   font-weight: normal;
 }
 
-.skillRow {
-  line-height: 2;
-  margin: 100px auto;
-  text-align: left;
-  width: 50%;
-}
-
-.engineerImg {
-  float: right;
-  width: 25%;
-}
-
-.mernImg {
-  float: left;
-  margin-right: 20px;
-  width: 25%;
-}
-
-.computerImg {
-  float: right;
-  width: 25%;
-}
-
 .bottomContainer {
   background-color: #66bfbf;
   margin-top: 50px;
   padding: 50px 0 20px;
-}
-
-.middleContainer {
-  margin: 100px 0;
 }
 
 .btn {
