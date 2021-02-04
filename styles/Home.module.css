@@ -1,24 +1,6 @@
-.topContainer {
-  background-color: #eaf6f6;
-  padding-top: 100px;
-  position: relative;
-}
-
-.topCloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
 .intro {
   margin: auto;
   width: 30%;
-}
-
-.bottomCloud {
-  bottom: 300px;
-  left: 250px;
-  position: absolute;
 }
 
 .subtitle {
