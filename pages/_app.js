@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import "../styles/globals.css";
-
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     // Remove the server-side injected CSS (For Material ui to work)

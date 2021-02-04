@@ -1,7 +1,13 @@
 import styles from "../styles/Home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { Grid, makeStyles, Container } from "@material-ui/core";
+import {
+  Grid,
+  makeStyles,
+  Container,
+  useMediaQuery,
+  useTheme,
+} from "@material-ui/core";
 
 const useStyles = makeStyles(
   (theme) => ({
@@ -11,26 +17,21 @@ const useStyles = makeStyles(
     skills: {
       textAlign: "center",
     },
-    computerImage: {
-      width: "100%",
-      [theme.breakpoints.up("lg")]: {
-        width: "25%",
-      },
-    },
-    mernImage: {
-      width: "100%",
-      [theme.breakpoints.up("lg")]: {
-        width: "40%",
+    Image: {
+      width: "30%",
+      [theme.breakpoints.down("sm")]: {
+        width: "50%",
       },
     },
 
     skillsTypo: {
       width: "100%",
-      textAlign: "left",
+      textAlign: "center",
       margin: "0 auto",
       padding: "1%",
-      [theme.breakpoints.up("lg")]: {
+      [theme.breakpoints.up("md")]: {
         width: "75%",
+        textAlign: "left",
       },
     },
   }),
@@ -38,7 +39,9 @@ const useStyles = makeStyles(
 );
 
 export default function Middle() {
-  const classes = useStyles();
+  const theme = useTheme(),
+    matches = useMediaQuery(theme.breakpoints.up("md")),
+    classes = useStyles();
   return (
     <Grid container className={classes.root}>
       <Container>
@@ -64,44 +67,43 @@ export default function Middle() {
             <h2>My Skills.</h2>
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <h3 className={classes.skillsTypo}>Designing & Coding</h3>
             <p className={classes.skillsTypo}>
               I Love to code, I design web applications as well as static
               websites. i am full stack developer.
             </p>
           </Grid>
-          <Grid item xs={6}>
-            <img
-              className={classes.computerImage}
-              src="images/computer.png"
-              alt=""
-            />
+          <Grid item xs={12} md={6}>
+            <img className={classes.Image} src="images/computer.png" alt="" />
           </Grid>
 
-          <Grid item xs={6}>
-            <img className={classes.mernImage} src="images/MERN.jpg" alt="" />
+          <Grid style={{ display: !matches && "none" }} item xs={12} md={6}>
+            <img className={classes.Image} src="images/MERN.jpg" alt="" />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <h3 className={classes.skillsTypo}>MERN Apps</h3>
             <p className={classes.skillsTypo}>
               My core area of expertise are MERN(Mongodb,Express,ReactJs,NodeJs)
               applications.
             </p>
           </Grid>
+          <Grid style={{ display: matches && "none" }} item xs={12} md={6}>
+            <img className={classes.Image} src="images/MERN.jpg" alt="" />
+          </Grid>
 
-          <Grid xs={6}>
+          <Grid xs={12} md={6}>
             <h3 className={classes.skillsTypo}>Engineering</h3>
             <p className={classes.skillsTypo}>
               I am Qualified Engineer. I Graduated from{" "}
               <a href="http://www.nust.edu.pk">NUST</a> in 2012
             </p>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
             <img
               src="images/Engineer.png"
               alt="image"
-              className={classes.mernImage}
+              className={classes.Image}
             />
           </Grid>
         </Grid>

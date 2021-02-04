@@ -1,6 +1,5 @@
-import { Grid } from "@material-ui/core";
+import { Grid, makeStyles } from "@material-ui/core";
 import styles from "../styles/Home.module.css";
-import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles(
   (theme) => ({
@@ -36,8 +35,8 @@ const useStyles = makeStyles(
 export default function Top() {
   const classes = useStyles();
   return (
-    <Grid container>
-      <Grid item xs={12} className={classes.root}>
+    <Grid container className={classes.root}>
+      <Grid item xs={12}>
         <img className={classes.topCloud} src="images/cloud.png" alt="cloud" />
         <h1>I am Basit</h1>
         <h2 className={styles.subtitle}>a Programmer</h2>
