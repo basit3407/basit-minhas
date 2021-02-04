@@ -2,32 +2,36 @@ import { Grid } from "@material-ui/core";
 import styles from "../styles/Home.module.css";
 import { makeStyles } from "@material-ui/core";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: "#eaf6f6",
-    paddingTop: "5%",
-  },
-  topCloud: {
-    position: "relative",
-    left: "25%",
-    [theme.breakpoints.down("sm")]: {
-      width: "25%",
+const useStyles = makeStyles(
+  (theme) => ({
+    root: {
+      backgroundColor: "#eaf6f6",
+      paddingTop: "5%",
     },
-  },
-  bottomCloud: {
-    position: "relative",
-    bottom: "33%",
-    [theme.breakpoints.down("sm")]: {
-      width: "25%",
-      bottom: "15%",
+    topCloud: {
+      position: "relative",
+      left: "25%",
+      [theme.breakpoints.down("sm")]: {
+        width: "25%",
+        top: "5%",
+      },
     },
-  },
+    bottomCloud: {
+      position: "relative",
+      bottom: "33%",
+      [theme.breakpoints.down("sm")]: {
+        width: "25%",
+        bottom: "15%",
+      },
+    },
 
-  mountain: {
-    width: "50%",
-    marginRight: "15%",
-  },
-}));
+    mountain: {
+      width: "50%",
+      marginRight: "15%",
+    },
+  }),
+  { index: 1 }
+);
 
 export default function Top() {
   const classes = useStyles();
