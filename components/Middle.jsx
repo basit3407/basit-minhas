@@ -70,8 +70,9 @@ export default function Middle() {
           <Grid item xs={12} md={6}>
             <h3 className={classes.skillsTypo}>Designing & Coding</h3>
             <p className={classes.skillsTypo}>
-              I Love to code, I design web applications as well as static
-              websites. i am full stack developer.
+              I Love to code, I design web applications, mobile applications
+              &#40;android and ios&#41; and static websites. i am full stack
+              developer.
             </p>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -84,7 +85,7 @@ export default function Middle() {
           <Grid item xs={12} md={6}>
             <h3 className={classes.skillsTypo}>MERN Apps</h3>
             <p className={classes.skillsTypo}>
-              My core area of expertise are MERN(Mongodb,Express,ReactJs,NodeJs)
+              My core area of expertise are MERN(Mongodb,Express,React,NodeJs)
               applications.
             </p>
           </Grid>
@@ -109,9 +110,15 @@ export default function Middle() {
         </Grid>
         <hr />
         <div>
-          <h2>My Work</h2>
+          <h2>My Works</h2>
 
-          <a href="http://www.prevaileng.com">Prevail Engineering</a>
+          <a href="https://prevail-engineering.vercel.app/">
+            Prevail Engineering
+          </a>
+          <a href="https://saqee-onlinestore.vercel.app">Saqee Online Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.bm.islamicpraytracker">
+            Islamic-Pray-Tracker
+          </a>
         </div>
         <hr />
         <div>
