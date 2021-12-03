@@ -115,10 +115,10 @@ export default function Middle() {
           <a href="https://play.google.com/store/apps/details?id=com.bm.islamicpraytracker">
             Islamic-Pray-Tracker
           </a>
+          <a href="https://saqee-onlinestore.vercel.app">Saqee Online Store</a>
           <a href="https://prevail-engineering.vercel.app/">
             Prevail Engineering
           </a>
-          <a href="https://saqee-onlinestore.vercel.app">Saqee Online Store</a>
         </div>
         <hr />
         <div>
