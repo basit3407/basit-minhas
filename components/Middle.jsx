@@ -64,15 +64,16 @@ export default function Middle() {
           spacing={5}
         >
           <Grid item xs={12}>
-            <h2>My Skills.</h2>
+            <h2>What i do.</h2>
           </Grid>
 
           <Grid item xs={12} md={6}>
-            <h3 className={classes.skillsTypo}>Designing & Coding</h3>
+            <h3 className={classes.skillsTypo}>
+              Develop Mobile Apps & Web Apps
+            </h3>
             <p className={classes.skillsTypo}>
-              I Love to code, I design web applications, mobile applications
-              &#40;android and ios&#41; and static websites. i am full stack
-              developer.
+              I develop web applications, mobile applications &#40;android and
+              ios&#41; and static websites. i am full stack developer.
             </p>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -80,21 +81,23 @@ export default function Middle() {
           </Grid>
 
           <Grid style={{ display: !matches && "none" }} item xs={12} md={6}>
-            <img className={classes.Image} src="images/MERN.jpg" alt="" />
+            <img className={classes.Image} src="images/skills.png" alt="" />
           </Grid>
           <Grid item xs={12} md={6}>
-            <h3 className={classes.skillsTypo}>MERN Apps</h3>
+            <h3 className={classes.skillsTypo}>Skills</h3>
             <p className={classes.skillsTypo}>
-              My core area of expertise are MERN(Mongodb,Express,React,NodeJs)
-              applications.
+              Frontend: React, React-Native, Typescript
+            </p>
+            <p className={classes.skillsTypo}>
+              Backend:,Python ,Django-Rest-Framework, Nodejs, Express, Mongodb
             </p>
           </Grid>
           <Grid style={{ display: matches && "none" }} item xs={12} md={6}>
-            <img className={classes.Image} src="images/MERN.jpg" alt="" />
+            <img className={classes.Image} src="images/skills.png" alt="" />
           </Grid>
 
           <Grid xs={12} md={6}>
-            <h3 className={classes.skillsTypo}>Engineering</h3>
+            <h3 className={classes.skillsTypo}>Education</h3>
             <p className={classes.skillsTypo}>
               I am Qualified Engineer. I Graduated from{" "}
               <a href="http://www.nust.edu.pk">NUST</a> in 2012
@@ -113,11 +116,16 @@ export default function Middle() {
           <h2>My Works</h2>
 
           <a href="https://play.google.com/store/apps/details?id=com.bm.islamicpraytracker">
-            Islamic-Pray-Tracker
+            Islamic-Pray-Tracker (Android)
           </a>
-          <a href="https://saqee-onlinestore.vercel.app">Saqee Online Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.basit3407.Dhikr_App">
+            Light Dhikr (Android)
+          </a>
+          <a href="https://saqee-onlinestore.vercel.app">
+            Saqee Online Store (Web)
+          </a>
           <a href="https://prevail-engineering.vercel.app/">
-            Prevail Engineering
+            Prevail Engineering (Web)
           </a>
         </div>
         <hr />
