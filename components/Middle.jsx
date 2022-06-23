@@ -123,6 +123,11 @@ export default function Middle() {
               </a>
             </Grid>
             <Grid item xs={12} md={4}>
+              <a href="https://apps.apple.com/de/app/light-dhikr/id1630782190">
+                Light Dhikr (ios)
+              </a>
+            </Grid>
+            <Grid item xs={12} md={4}>
               <a href="https://saqee-onlinestore.vercel.app">
                 Saqee Online Store (Web)
               </a>
