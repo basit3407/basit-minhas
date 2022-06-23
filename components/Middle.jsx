@@ -23,6 +23,11 @@ const useStyles = makeStyles(
         width: "50%",
       },
     },
+    skillsImage: {
+      [theme.breakpoints.down("sm")]: {
+        width: "50%",
+      },
+    },
 
     skillsTypo: {
       width: "100%",
@@ -81,7 +86,11 @@ export default function Middle() {
           </Grid>
 
           <Grid style={{ display: !matches && "none" }} item xs={12} md={6}>
-            <img className={classes.Image} src="images/skills.png" alt="" />
+            <img
+              className={classes.skillsImage}
+              src="images/skills.png"
+              alt=""
+            />
           </Grid>
           <Grid item xs={12} md={6}>
             <h3 className={classes.skillsTypo}>Skills</h3>
@@ -93,7 +102,11 @@ export default function Middle() {
             </p>
           </Grid>
           <Grid style={{ display: matches && "none" }} item xs={12} md={6}>
-            <img className={classes.Image} src="images/skills.png" alt="" />
+            <img
+              className={classes.skillsImage}
+              src="images/skills.png"
+              alt=""
+            />
           </Grid>
 
           <Grid xs={12} md={6}>
