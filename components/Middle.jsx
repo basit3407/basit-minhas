@@ -18,7 +18,7 @@ const useStyles = makeStyles(
       textAlign: "center",
     },
     Image: {
-      width: "30%",
+      width: "50%",
       [theme.breakpoints.down("sm")]: {
         width: "50%",
       },
@@ -98,7 +98,7 @@ export default function Middle() {
               Frontend: React, React-Native, Typescript
             </p>
             <p className={classes.skillsTypo}>
-              Backend:,Python ,Django-Rest-Framework, Nodejs, Express, Mongodb
+              Backend:Python ,Django-Rest-Framework, Nodejs, Express, Mongodb
             </p>
           </Grid>
           <Grid style={{ display: matches && "none" }} item xs={12} md={6}>
@@ -127,19 +127,28 @@ export default function Middle() {
         <hr />
         <div>
           <h2>My Works</h2>
-
-          <a href="https://play.google.com/store/apps/details?id=com.bm.islamicpraytracker">
-            Islamic-Pray-Tracker (Android)
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.basit3407.Dhikr_App">
-            Light Dhikr (Android)
-          </a>
-          <a href="https://saqee-onlinestore.vercel.app">
-            Saqee Online Store (Web)
-          </a>
-          <a href="https://prevail-engineering.vercel.app/">
-            Prevail Engineering (Web)
-          </a>
+          <Grid container>
+            <Grid item xs={12} md={4}>
+              <a href="https://play.google.com/store/apps/details?id=com.bm.islamicpraytracker">
+                Islamic-Pray-Tracker (Android)
+              </a>
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <a href="https://play.google.com/store/apps/details?id=com.basit3407.Dhikr_App">
+                Light Dhikr (Android)
+              </a>
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <a href="https://saqee-onlinestore.vercel.app">
+                Saqee Online Store (Web)
+              </a>
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <a href="https://prevail-engineering.vercel.app/">
+                Prevail Engineering (Web)
+              </a>
+            </Grid>
+          </Grid>
         </div>
         <hr />
         <div>
