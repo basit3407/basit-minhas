@@ -93,7 +93,7 @@ export default function Middle() {
           <Grid item xs={12} md={6}>
             <h3 className={classes.skillsTypo}>Skills</h3>
             <p className={classes.skillsTypo}>
-              Frontend: React, React-Native, Typescript
+              Frontend: React, Next.js, React-Native, Typescript
             </p>
             <p className={classes.skillsTypo}>
               Backend: Python ,Django-Rest-Framework, Nodejs, Express, Mongodb
