@@ -90,11 +90,7 @@ export default function Middle() {
             </p>
           </Grid>
           <Grid style={{ display: matches && "none" }} item xs={12} md={6}>
-            <img
-              className={classes.skillsImage}
-              src="images/skills.png"
-              alt=""
-            />
+            <img className={classes.Image} src="images/skills.png" alt="" />
           </Grid>
 
           <Grid xs={12} md={6}>
