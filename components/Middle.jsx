@@ -113,8 +113,8 @@ export default function Middle() {
           <h2>My Works</h2>
           <Grid container spacing={6}>
             <Grid item xs={12} md={4}>
-              <a href="https://play.google.com/store/apps/details?id=com.bm.islamicpraytracker">
-                Islamic-Pray-Tracker (Android)
+              <a href="https://play.google.com/store/apps/details?id=com.bm.islamicprayertracker">
+                Islamic Prayer Tracker (Android)
               </a>
             </Grid>
             <Grid item xs={12} md={4}>
