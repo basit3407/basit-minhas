@@ -118,7 +118,7 @@ export default function Middle() {
               </a>
             </Grid>
             <Grid item xs={12} md={4}>
-              <a href="tps://play.google.com/store/apps/details?id=com.lightdhikr.bm">
+              <a href="https://play.google.com/store/apps/details?id=com.lightdhikr.bm">
                 Light Dhikr (Android)
               </a>
             </Grid>
