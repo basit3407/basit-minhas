@@ -112,7 +112,7 @@ export default function Middle() {
         <div>
           <h2>My Works</h2>
           <Grid container spacing={6}>
-            <Grid item xs={12} md={4}>
+            {/* <Grid item xs={12} md={4}>
               <a href="https://play.google.com/store/apps/details?id=com.bm.islamicprayertracker">
                 Islamic Prayer Tracker (Android)
               </a>
@@ -121,7 +121,7 @@ export default function Middle() {
               <a href="https://play.google.com/store/apps/details?id=com.lightdhikr.bm">
                 Light Dhikr (Android)
               </a>
-            </Grid>
+            </Grid> */}
             <Grid item xs={12} md={4}>
               <a href="https://apps.apple.com/de/app/light-dhikr/id1630782190">
                 Light Dhikr (ios)
